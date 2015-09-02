@@ -14,6 +14,12 @@
 		2F70D5F11B916F6C003FF3DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F70D5F01B916F6C003FF3DA /* Images.xcassets */; };
 		2F70D5F41B916F6C003FF3DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F70D5F21B916F6C003FF3DA /* LaunchScreen.xib */; };
 		2F70D6001B916F6C003FF3DA /* UITableView_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F70D5FF1B916F6C003FF3DA /* UITableView_Challenge_SolutionTests.m */; };
+		2F70D60E1B9176C5003FF3DA /* user1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F70D6091B9176C5003FF3DA /* user1.jpg */; };
+		2F70D60F1B9176C5003FF3DA /* user2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F70D60A1B9176C5003FF3DA /* user2.jpg */; };
+		2F70D6101B9176C5003FF3DA /* user3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F70D60B1B9176C5003FF3DA /* user3.jpg */; };
+		2F70D6111B9176C5003FF3DA /* user4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F70D60C1B9176C5003FF3DA /* user4.jpg */; };
+		2F70D6121B9176C5003FF3DA /* user5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F70D60D1B9176C5003FF3DA /* user5.jpg */; };
+		2F70D6181B922F5E003FF3DA /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F70D6171B922F5E003FF3DA /* UserData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		2F70D5F91B916F6C003FF3DA /* UITableView Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F70D5FE1B916F6C003FF3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F70D5FF1B916F6C003FF3DA /* UITableView_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		2F70D6091B9176C5003FF3DA /* user1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user1.jpg; sourceTree = "<group>"; };
+		2F70D60A1B9176C5003FF3DA /* user2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user2.jpg; sourceTree = "<group>"; };
+		2F70D60B1B9176C5003FF3DA /* user3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user3.jpg; sourceTree = "<group>"; };
+		2F70D60C1B9176C5003FF3DA /* user4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user4.jpg; sourceTree = "<group>"; };
+		2F70D60D1B9176C5003FF3DA /* user5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user5.jpg; sourceTree = "<group>"; };
+		2F70D6161B922F5E003FF3DA /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		2F70D6171B922F5E003FF3DA /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +109,14 @@
 		2F70D5E31B916F6C003FF3DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2F70D6161B922F5E003FF3DA /* UserData.h */,
+				2F70D6171B922F5E003FF3DA /* UserData.m */,
 				2F70D5E41B916F6C003FF3DA /* Info.plist */,
+				2F70D6091B9176C5003FF3DA /* user1.jpg */,
+				2F70D60A1B9176C5003FF3DA /* user2.jpg */,
+				2F70D60B1B9176C5003FF3DA /* user3.jpg */,
+				2F70D60C1B9176C5003FF3DA /* user4.jpg */,
+				2F70D60D1B9176C5003FF3DA /* user5.jpg */,
 				2F70D5E51B916F6C003FF3DA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -199,8 +219,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F70D6101B9176C5003FF3DA /* user3.jpg in Resources */,
+				2F70D60E1B9176C5003FF3DA /* user1.jpg in Resources */,
 				2F70D5EF1B916F6C003FF3DA /* Main.storyboard in Resources */,
 				2F70D5F41B916F6C003FF3DA /* LaunchScreen.xib in Resources */,
+				2F70D6121B9176C5003FF3DA /* user5.jpg in Resources */,
+				2F70D60F1B9176C5003FF3DA /* user2.jpg in Resources */,
+				2F70D6111B9176C5003FF3DA /* user4.jpg in Resources */,
 				2F70D5F11B916F6C003FF3DA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +246,7 @@
 			files = (
 				2F70D5EC1B916F6C003FF3DA /* ViewController.m in Sources */,
 				2F70D5E91B916F6C003FF3DA /* AppDelegate.m in Sources */,
+				2F70D6181B922F5E003FF3DA /* UserData.m in Sources */,
 				2F70D5E61B916F6C003FF3DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +442,7 @@
 				2F70D6051B916F6C003FF3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F70D6061B916F6C003FF3DA /* Build configuration list for PBXNativeTarget "UITableView Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +451,7 @@
 				2F70D6081B916F6C003FF3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
